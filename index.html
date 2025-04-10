@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Site">
+        <title>Сайт для тестирования</title>
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <script defer src="script.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>Интернет-магазин электронники</h1>
+            <nav>
+                <a href="index.html">Главная</a>
+                <a href="#products-list">Товары</a>
+                <a href="#cart">Корзина</a>
+                <a href="#about">О нас</a>
+            </nav>
+        </header>
+        <main>
+            <div>
+                <h2>Товары</h2>
+                <div id="product-list">
+                    <div class="product-item">
+                        <h3>Телефон</h3>
+                        <p>Цена: 50000 руб.</p>
+                        <button class="add-to-cart">Добавить в корзину</button>
+                    </div>
+                    <div class="product-item">
+                        <h3>Ноутбук</h3>
+                        <p>Цена: 80000 руб.</p>
+                        <button class="add-to-cart">Добавить в корзину</button>
+                    </div>
+                    <div class="product-item">
+                        <h3>Планшет</h3>
+                        <p>Цена: 30000 руб.</p>
+                        <button class="add-to-cart">Добавить в корзину</button>
+                    </div>
+                    <div class="product-item">
+                        <h3>Наушники</h3>
+                        <p>Цена: 5000 руб.</p>
+                        <button class="add-to-cart">Добавить в корзину</button>
+                </div>
+            </div>
+            <div id="cart">
+                <h2>Корзина</h2>
+                <button id="toggle-cart">Скрыть корзину</button>
+                <ul id="cart-items"></ul>
+                <p id="total-price">Итого: 0 руб.</p>
+                <button id="checkout">Оформить заказ</button>
+            </div>
+            <div id="about">
+                <h2>О нас</h2>
+                <p>Мы - интернет-магазин, предлагающий широкий ассортимент электроники по доступным ценам.</p>
+                <p>Наши товары проходят строгий контроль качества, и мы гарантируем их надежность.</p>
+            </div>
+        </main>
+        <button id="back-to-top" title="Наверх">↑</button>
+    </body>
+</html>
